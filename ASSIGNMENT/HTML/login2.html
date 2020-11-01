@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../CSS/start.css" rel="stylesheet">
+        <link href="../CSS/login1.css" rel="stylesheet">
+        <link href="../CSS/login2.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comfortaa:wght@323;700&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body id = 'body'>
+        
+        <div>
+            <img  class = 'bg' src="../assets/Bg.png" >
+            <div>
+                <img class = 'bg1' src="../assets/Bg 2.3.png" width="400px" height= '300px'>
+                <img  class = 'object' src="../assets/object 3.png" width="170px" height= '140px'>
+                <div >
+                   <h1>LOGIN</h1>
+                   <p class="text1">Enter Your Mobile Number</p>
+                   <img class="button1" src="../assets/button_secndry.png" width="320px" height= '45px'>
+                   <h4>+91|</h4>
+                   <input id = 'input' class="button1" type="number" name="" placeholder="9876543210" >
+                    <h1 class = 'otp'>VERIFY OTP</h1>
+                    <p  id = 'otp-num' class="text2">OTP Sent to <span id = 'num' ></span></p>
+                    <img class="button2" src="../assets/button_secndry.png" width="320px" height= '45px'>
+                    <form>
+                        <input id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)"/>
+                        <input id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)"/>
+                        <input id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)"/>
+                        <input id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)"/>
+                        <input id="codeBox5" type="number" maxlength="1" onkeyup="onKeyUpEvent(5, event)" onfocus="onFocusEvent(5)"/>
+                        <input id="codeBox6" type="number" maxlength="1" onkeyup="onKeyUpEvent(6, event)" onfocus="onFocusEvent(6)"/>
+                    </form>
+                    <p id = 'changeNum' class="text3">Change Mobile Number</p>
+                    <p class="text4">Auto Detect in 00:00</p>
+                    <p id = 'resend' class="text5">RESEND</p>
+                    
+                    <a href = '' ><img class="button4" src="../assets/button_main.png" width="320px" height= '45px'>
+                    <h4 class = 'text4'>PROCEED</h4></a>
+                </div>
+            </div>
+        </div>
+        <script src="../JS/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+h1{
+    left:80vh;
+    top: 56vh;
+    font-family:'Archivo Black', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.button4{
+    left:80vh;
+    top: 88vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-bottom: 20px;
+    
+}
+.text1{
+    font-size: 18px;
+    left:81vh;
+    color: black;
+    top: 63vh;
+    text-shadow: none;
+    transform: none;
+    font-family: 'Comfortaa', cursive;
+    width: fit-content;
+}
+
+.text2{
+    font-size: 18px;
+    left: 81vh;
+    top: 70vh;
+    width: fit-content;
+}
+
+.text3{
+    font-size: 18px;
+    left: 81vh;
+    top: 78vh;
+    width: fit-content;
+}
+.text4{
+    font-size: 18px;
+    left:81vh;
+    top: 86vh;
+    width: fit-content;
+    color: black;
+}
+
+.logo{
+    position: relative; 
+    padding-right: 7px; 
+    top: 0.5vh;
+}
+   
+p.text4{
+    left: 89vh;
+    top: 94vh;
+    line-height: 2vh;
+    font-family: "Comfortaa";
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: normal;
+    width: fit-content;
+}
+p a{
+    color: black;
+}

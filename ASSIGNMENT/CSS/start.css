@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 730px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.bg1{
+    left: 75vh;
+    top: 0vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+
+.object{
+    left: 94vh;
+    top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+
+h1{
+    left: 78vh;
+    top: 31vh;
+    font-family: 'Archivo Black', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+h2{
+    left: 78vh;
+    top: 38vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    letter-spacing: 0px;
+    font-style: italic;
+}
+.button1, h4{
+    font-family: 'Comfortaa', cursive;
+    left:80vh;
+    top: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+#login{
+    font-size: large;
+    font-family: 'Archivo Black', sans-serif;;
+    color:#F79837;
+}
+.button2{
+    left:80vh;
+    top: 72vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-bottom: 20px;
+}
+.button3{
+    left:80vh;
+    top: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.text1{
+    transform: scale(1,0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -1px 1px black;
+    font-size: x-large;
+    left: 90vh;
+    font-weight: bolder;
+    top: 62.5vh;
+    line-height: 9px;
+    width: fit-content;
+}
+p{
+    text-shadow: none;
+    transform: scale(1,1);
+    color: black;
+    left: 93.5vh;
+    top: 62.5vh;
+    line-height: 5px;
+    font-size: 8px;
+    letter-spacing: -0.2px;
+    font-family: verdana;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 10px;
+    width: fit-content;
+}
+
+.text2{
+    text-align: center;
+    left: 83vh;
+    top: 71vh;
+    width: fit-content;
+    color: black;
+}
+.text3{
+    text-align: center;
+    left: 83vh;
+    top: 78.5vh;
+    width: fit-content;
+    color: black;
+}
+
+

@@ -1,0 +1,140 @@
+p.text1{
+    left:80vh;
+    top: 53vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    font-size: 12px;
+    font-style: normal;
+    font-family: 'Comfortaa', cursive;
+}
+
+h1{
+    top:45vh;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bolder;
+}
+h4 {
+    top: 55vh;
+    padding-left: 2vh;
+    
+}
+.button1{
+    top: 56vh;
+}
+.object{
+    left: 92vh;
+}
+
+input.button1{
+    font-size: 18px;
+    left:87vh;
+    color: black;
+    top: 57vh;
+    width:260px;
+    height: 33px;
+    border:none;
+    outline: none;
+}
+
+.otp{
+    left: 80vh;
+    top: 64vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: fit-content;
+}
+span{
+    color:#F79837;
+}
+.text2{
+    left: 81vh;
+    top: 71.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: normal;
+    font-family: 'Comfortaa', cursive;
+}
+
+.button2{
+    top: 74.8vh;
+}
+
+p.text3{
+    left:80.5vh;
+    top: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    font-size: 10px;
+    color:#F79837;
+    font-weight: bold;
+    font-style: normal;
+    width: fit-content;
+    font-family: 'Comfortaa', cursive;
+}
+
+p.text4{
+    left:102.5vh;
+    top: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    font-size: 9px;
+    font-weight: bold;
+    font-style: normal;
+    width: fit-content;
+    font-family: 'Comfortaa', cursive;
+}
+
+.text5{
+    left:117vh;
+    top: 80vh;
+    color:#F79837;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: normal;
+}
+
+h4.text4{
+    left:93vh;
+    top: 86vh;
+    text-shadow: -1px 1px black;
+    letter-spacing: 1px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    font-style: normal;
+}
+
+#changeNum, .text5{
+    cursor: pointer;
+}
+form{
+margin-left: -10px ;
+}
+form input[type=number] {
+    top: -23vh;
+    right: -82vh;
+    position: relative;
+    height: 36px;
+    width: 30px;
+    font-size: 22px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
